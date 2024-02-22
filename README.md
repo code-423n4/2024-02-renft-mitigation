@@ -39,9 +39,9 @@ Mitigations of all High and Medium issues will be considered in-scope and listed
 ### Token Whitelist
 A token whitelist has been implemented to filter the tokens that are supported by the protocol. There are two whitelists: asset whitelist and payment whitelist.
 
-For the asset whitelist, please assume that only "standard" ERC721/ERC1155 tokens will be added to this whitelist. An exception to this are the burnable token extension and tokens that support `permit()`. Any vulnerabilities found that involves that functionality *will* be considered in scope.
+For the asset whitelist, please assume that only "standard" ERC721/ERC1155 tokens will be added to this whitelist. The only exceptions to this are the burnable token extension and tokens that support `permit()` ([EIP-4494](https://eips.ethereum.org/EIPS/eip-4494)). Any vulnerabilities found that involves that functionality *will* be considered in scope.
 
-For the payment whitelist, please assume that only "standard" ERC20 tokens will be added to this whitelist.
+For the payment whitelist, please assume that only "standard" ERC20 tokens will be added to this whitelist. More specifically, we will plan to support: DAI, USDC, USDT. Other payment tokens will be considered out of scope.
 
 > In terms of what "standard" means, think of the Open Zeppelin implementations of these tokens. We will not be whitelisting any tokens that deviate too far from how we expect an ERC721/ERC1155/ERC20 token to behave.
 

@@ -1,7 +1,7 @@
 # reNFT - Mitigation Review details
 - Total Prize Pool: $19,800 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Submit findings [using the C4 form](https://code4rena.com/contests/2024-02-renft-mitigation/submit)
+- Submit findings [using the C4 form](https://code4rena.com/audits/2024-02-renft-mitigation-review/submit)
 - Starts February 27 20:00 UTC
 - Ends March 4 20:00 UTC
 
